@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todolist-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stevany",
+  "license": "ISC"
+}
