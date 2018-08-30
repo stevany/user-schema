@@ -84,7 +84,7 @@ router.route("/users/:id")
 
 	})
 //find name
-router.route("/user/name/:name")
+router.route("/users/name/:name")
 .get(function(req,res){
 	var response = {};
 		User.find({ username:(req.params.name) },function(err,data) {

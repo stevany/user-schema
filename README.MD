@@ -21,13 +21,13 @@ find id:
 http://localhost:3010/api/users/{id}
 
 find name:
-http://localhost:3010/api/user/name/{name}
+http://localhost:3010/api/users/name/{name}
 
 find city:
 http://localhost:3010/api/users/{id}/address/city
 
 delete:
-http://localhost:3010/api/user/id/{id}/address
+http://localhost:3010/api/users/id/{id}/address
 
 
 
